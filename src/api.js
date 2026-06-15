@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8080/api/students';
+//const API_BASE_URL = 'http://localhost:8080/api/students';
+
+const API_BASE_URL = 'https://student-management-backend-0qk1.onrender.com/api/students';
 
 export const getAllStudents = () => axios.get(API_BASE_URL);
 
